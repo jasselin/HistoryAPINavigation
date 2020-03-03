@@ -1,0 +1,41 @@
+<html DOCTYPE>
+
+<head>
+    <script tyoe="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <style>
+        body {
+            display: flex;
+            flex: auto 1 1;
+            background: lightgray;
+            flex-direction: column;
+        }
+        #menu {
+            
+            background: lightgray;
+        }
+        #menulist > li {
+            padding: 10px;
+            float: left;
+            list-style-type: none;
+        }
+        #container {
+            display: flex;
+            flex: auto 1 1;
+            background: lightskyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <ul id="menulist">
+            <li><a id="link1" href="#">Page 1</a></li>
+            <li><a id="link2" href="#">Page 2</a></li>
+            <li><a id="link3" href="#">Page 3</a></li>
+        </ul>
+    </div>
+    <div id="container"></div>
+</body>
+
+</html>
